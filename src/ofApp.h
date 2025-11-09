@@ -41,7 +41,8 @@ class ofApp : public ofBaseApp{
 		bool serialMode;
 		float lastSendTime;
 		float sendInterval;
-		
+		float lastReconnectAttempt;
+
 		// Find Arduino serial port
 		string findArduinoPort();
 		

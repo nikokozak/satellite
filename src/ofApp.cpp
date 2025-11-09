@@ -84,6 +84,7 @@ void ofApp::setup(){
     serialMode = false;
     lastSendTime = 0;
     sendInterval = 1.0;
+    lastReconnectAttempt = 0;
     plotterX = 0.0f;
     plotterY = 0.0f;
     currentMode = PLOTTER_TRACK; // Default to plotter tracking
@@ -519,6 +520,22 @@ void ofApp::update(){
     // Update mouse coordinates (relative to the main window)
     mouseX = ofGetMouseX();
     mouseY = ofGetMouseY();
+
+    // --- Serial Reconnection Logic ---
+    // Check if serial died and try to reconnect every 5 seconds
+    if (!serial.isInitialized()) {
+        float currentTime = ofGetElapsedTimef();
+        if (currentTime - lastReconnectAttempt >= 5.0f) {
+            string portName = findArduinoPort();
+            if (portName != "") {
+                serial.setup(portName, 115200);
+                if (serial.isInitialized()) {
+                    ofLogNotice() << "Reconnected to Arduino on port: " << portName;
+                }
+            }
+            lastReconnectAttempt = currentTime;
+        }
+    }
 
     // --- Update Crop Rectangle ---
     // Ensure image is loaded before calculating crop based on its dimensions
