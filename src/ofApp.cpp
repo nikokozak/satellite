@@ -81,13 +81,13 @@ void ofApp::setup(){
     // Initialize variables
     mouseX = CANVAS_WIDTH / 2; // Use canvas size for initial center
     mouseY = CANVAS_HEIGHT / 2;
-    serialMode = false;
+    serialMode = true; // Start with serial enabled for autonomous operation
     lastSendTime = 0;
     sendInterval = 1.0;
     lastReconnectAttempt = 0;
     plotterX = 0.0f;
     plotterY = 0.0f;
-    currentMode = PLOTTER_TRACK; // Default to plotter tracking
+    currentMode = PATH_TRACK; // Start in autonomous path tracking mode
     
     // Initialize crop rectangle (will be adjusted in update based on image)
     cropWidth = CROP_W;
