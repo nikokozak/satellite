@@ -501,7 +501,8 @@ void ofApp::moveToNextPathPoint() {
 //--------------------------------------------------------------
 bool ofApp::isNearPoint(const ofPoint& point) {
     // Map plotter coords (Canvas Space) to Image Space for comparison
-    // Direct mapping for tracking shot behavior
+    // Point is in image space (top=0), plotter reports bottom=0, so we DON'T invert
+    // because we're already sending non-inverted commands
     float plotterImageX = plotterX;
     float plotterImageY = plotterY;
     if (image.isAllocated()) {
