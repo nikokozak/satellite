@@ -34,5 +34,9 @@ for lib in $EXTERNAL_LIBS; do
 done
 
 echo ""
+echo "Re-signing app bundle..."
+codesign --force --deep --sign - "$APP_PATH" 2>/dev/null
+
+echo ""
 echo "Done! Verifying..."
 otool -L "$EXECUTABLE" | grep -E "(homebrew|usr/local)" && echo "⚠️  Still has external dependencies" || echo "✓ All external dependencies bundled!"
