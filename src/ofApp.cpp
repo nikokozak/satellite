@@ -34,7 +34,7 @@ void ofApp::setup(){
     emptyPathMoveStartTime = 0.0f;
     
     // Initialize debug mode
-    debugMode = false;
+    debugMode = true; // Start with debug visualization enabled
 
     // Scan the images directory
     ofDirectory imgsDir("imgs"); // Correct path relative to data folder within bin
