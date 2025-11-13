@@ -42,6 +42,8 @@ class ofApp : public ofBaseApp{
 		float lastSendTime;
 		float sendInterval;
 		float lastReconnectAttempt;
+		float lastSerialReceiveTime;
+		int consecutiveTimeouts;
 
 		// Find Arduino serial port
 		string findArduinoPort();

@@ -85,6 +85,8 @@ void ofApp::setup(){
     lastSendTime = 0;
     sendInterval = 1.0;
     lastReconnectAttempt = 0;
+    lastSerialReceiveTime = 0;
+    consecutiveTimeouts = 0;
     plotterX = 0.0f;
     plotterY = 0.0f;
     currentMode = PATH_TRACK; // Start in autonomous path tracking mode
@@ -523,15 +525,29 @@ void ofApp::update(){
     mouseY = ofGetMouseY();
 
     // --- Serial Reconnection Logic ---
-    // Check if serial died and try to reconnect every 5 seconds
-    if (!serial.isInitialized()) {
-        float currentTime = ofGetElapsedTimef();
+    float currentTime = ofGetElapsedTimef();
+
+    // Check if serial connection is dead (either not initialized or zombie connection)
+    // Zombie connection = no data received for 15+ seconds AND we're in PATH_TRACK mode
+    bool connectionDead = !serial.isInitialized() ||
+                          (currentMode == PATH_TRACK &&
+                           lastSerialReceiveTime > 0 &&
+                           currentTime - lastSerialReceiveTime > 15.0f);
+
+    if (connectionDead) {
         if (currentTime - lastReconnectAttempt >= 5.0f) {
+            if (serial.isInitialized()) {
+                ofLogWarning() << "Serial appears dead (no data for 15s). Attempting reconnection...";
+                serial.close();
+            }
+
             string portName = findArduinoPort();
             if (portName != "") {
                 serial.setup(portName, 115200);
                 if (serial.isInitialized()) {
                     ofLogNotice() << "Reconnected to Arduino on port: " << portName;
+                    lastSerialReceiveTime = currentTime; // Reset receive timer
+                    consecutiveTimeouts = 0;
                 }
             }
             lastReconnectAttempt = currentTime;
@@ -619,6 +635,7 @@ void ofApp::update(){
             // Append the received bytes to the buffer
             receivedData = (char*)bytesReturned; // Keep showing raw chunks for debug
             serialBuffer.append((char*)bytesReturned, nRead);
+            lastSerialReceiveTime = ofGetElapsedTimef(); // Update receive timestamp
         }
     }
 
