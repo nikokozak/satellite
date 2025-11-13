@@ -923,6 +923,10 @@ void ofApp::keyPressed(int key){
         debugMode = !debugMode;
         ofLogNotice() << "Debug Mode: " << (debugMode ? "ON" : "OFF");
     }
+    if(key == 'f') {
+        ofToggleFullscreen();
+        ofLogNotice() << "Fullscreen toggled";
+    }
 }
 
 //--------------------------------------------------------------
