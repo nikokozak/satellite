@@ -501,12 +501,12 @@ void ofApp::moveToNextPathPoint() {
 //--------------------------------------------------------------
 bool ofApp::isNearPoint(const ofPoint& point) {
     // Map plotter coords (Canvas Space) to Image Space for comparison
-    // Note: Requires image to be allocated to get dimensions
+    // Direct mapping for tracking shot behavior
     float plotterImageX = plotterX;
     float plotterImageY = plotterY;
     if (image.isAllocated()) {
         plotterImageX = ofMap(plotterX, 0, CANVAS_WIDTH, 0, image.getWidth(), true);
-        plotterImageY = ofMap(plotterY, 0, CANVAS_HEIGHT, image.getHeight(), 0, true); // NEW: Invert plotter Y for Image Space comparison
+        plotterImageY = ofMap(plotterY, 0, CANVAS_HEIGHT, 0, image.getHeight(), true);
     }
     // Calculate distance in Image Space
     float distance = ofDist(plotterImageX, plotterImageY, point.x, point.y);
@@ -551,14 +551,13 @@ void ofApp::update(){
         float targetY = 0;
 
         if (currentMode == PLOTTER_TRACK) {
-            // Map plotter coords (assumed Canvas Space, but plotter sends bottom=0 Y) to Image Space (top=0) for crop centering
+            // Map plotter coords to image space - direct mapping for tracking shot
             targetX = ofMap(plotterX, 0, CANVAS_WIDTH, 0, imageWidth, true);
-            targetY = ofMap(plotterY, 0, CANVAS_HEIGHT, imageHeight, 0, true); // NEW: Invert plotter Y for Image Space
+            targetY = ofMap(plotterY, 0, CANVAS_HEIGHT, 0, imageHeight, true);
         } else if (currentMode == PATH_TRACK) {
-            // Crop should follow the CURRENT plotter position, even in path mode.
-            // Map plotter coords (assumed Canvas Space, plotter sends bottom=0 Y) to Image Space (top=0) for crop centering.
+            // Crop follows plotter position - direct mapping for tracking shot
             targetX = ofMap(plotterX, 0, CANVAS_WIDTH, 0, imageWidth, true);
-            targetY = ofMap(plotterY, 0, CANVAS_HEIGHT, imageHeight, 0, true); // NEW: Invert plotter Y for Image Space
+            targetY = ofMap(plotterY, 0, CANVAS_HEIGHT, 0, imageHeight, true);
 
             // Still need to check path progression
             moveToNextPathPoint();
