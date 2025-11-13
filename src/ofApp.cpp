@@ -248,9 +248,9 @@ void ofApp::findImagePaths() {
     // --- Send command for the FIRST point ---
     if (!pathComplete && !simplifiedPath.empty() && serialMode && serial.isInitialized()) {
         ofPoint target = simplifiedPath[0]; // Target the first point
-        // Map image coords (top=0) to canvas coords (bottom=0) for plotter
+        // Map image coords to plotter coords - direct mapping for tracking shot
         int sendX = ofMap(target.x, 0, image.getWidth(), 0, CANVAS_WIDTH, true);
-        int sendY = ofMap(target.y, 0, image.getHeight(), CANVAS_HEIGHT, 0, true); // Invert Y
+        int sendY = ofMap(target.y, 0, image.getHeight(), 0, CANVAS_HEIGHT, true);
         sendX = ofClamp(sendX, 0, CANVAS_WIDTH);
         sendY = ofClamp(sendY, 0, CANVAS_HEIGHT);
         string command = "g" + ofToString(sendX) + "," + ofToString(sendY) + "\n";
@@ -443,9 +443,9 @@ void ofApp::moveToNextPathPoint() {
                 currentPointStartTime = currentTime; // Reset start timer for the new point
                  if (serialMode && serial.isInitialized()) {
                     ofPoint target = simplifiedPath[currentPathPoint];
-                    // Map image coords (top=0) to canvas coords (bottom=0) for plotter
+                    // Map image coords to plotter coords - direct mapping for tracking shot
                     int sendX = ofMap(target.x, 0, image.getWidth(), 0, CANVAS_WIDTH, true);
-                    int sendY = ofMap(target.y, 0, image.getHeight(), CANVAS_HEIGHT, 0, true); // Invert Y
+                    int sendY = ofMap(target.y, 0, image.getHeight(), 0, CANVAS_HEIGHT, true);
                     sendX = ofClamp(sendX, 0, CANVAS_WIDTH);
                     sendY = ofClamp(sendY, 0, CANVAS_HEIGHT);
                     string command = "g" + ofToString(sendX) + "," + ofToString(sendY) + "\n";
@@ -482,9 +482,9 @@ void ofApp::moveToNextPathPoint() {
                 currentPointStartTime = currentTime; // Reset start timer for the new point
                 if (serialMode && serial.isInitialized()) {
                     ofPoint target = simplifiedPath[currentPathPoint];
-                    // Map image coords (top=0) to canvas coords (bottom=0) for plotter
+                    // Map image coords to plotter coords - direct mapping for tracking shot
                     int sendX = ofMap(target.x, 0, image.getWidth(), 0, CANVAS_WIDTH, true);
-                    int sendY = ofMap(target.y, 0, image.getHeight(), CANVAS_HEIGHT, 0, true); // Invert Y
+                    int sendY = ofMap(target.y, 0, image.getHeight(), 0, CANVAS_HEIGHT, true);
                     sendX = ofClamp(sendX, 0, CANVAS_WIDTH);
                     sendY = ofClamp(sendY, 0, CANVAS_HEIGHT);
                     string command = "g" + ofToString(sendX) + "," + ofToString(sendY) + "\n";
@@ -593,9 +593,9 @@ void ofApp::update(){
         float currentTime = ofGetElapsedTimef();
         if(currentTime - lastSendTime >= sendInterval) {
             if (serial.isInitialized()) {
-                // Send MOUSE coordinates mapped to CANVAS dimensions
+                // Send MOUSE coordinates mapped to CANVAS dimensions - direct mapping for tracking shot
                 int serialX = ofMap(mouseX, 0, ofGetWidth(), 0, CANVAS_WIDTH, true);
-                int serialY = ofMap(mouseY, 0, ofGetHeight(), CANVAS_HEIGHT, 0, true);
+                int serialY = ofMap(mouseY, 0, ofGetHeight(), 0, CANVAS_HEIGHT, true);
 
                 // Clamp values just in case mapping goes slightly out
                 serialX = ofClamp(serialX, 0, CANVAS_WIDTH);
@@ -603,7 +603,7 @@ void ofApp::update(){
 
                 string command = "g" + ofToString(serialX) + "," + ofToString(serialY) + "\n";
                 serial.writeBytes((unsigned char*)command.c_str(), command.length());
-                
+
                 lastSendTime = currentTime; // Update time only after sending
             }
         }
