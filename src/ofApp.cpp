@@ -25,7 +25,7 @@ void ofApp::setup(){
     
     // Initialize new path timing/state vars
     pointTimeoutDuration = 3.0f; // Timeout after 3 seconds if stuck
-    pointPauseDuration = 3.0f;   // Pause for 3 seconds at each point
+    pointPauseDuration = 8.0f;   // Pause for 8 seconds at each point
     waitingAtPoint = false;
     waitingForEmptyPathMove = false;
     emptyPathMoveDuration = 5.0f; // Wait 5 seconds after random move
