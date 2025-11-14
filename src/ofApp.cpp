@@ -101,7 +101,7 @@ void ofApp::setup(){
     // Setup serial connection
     string portName = findArduinoPort();
     if(portName != "") {
-        serial.setup(portName, 250000);
+        serial.setup(portName, 115200);
         ofLogNotice() << "Connected to serial port: " << portName;
     } else {
         ofLogError() << "Could not find Arduino port";
@@ -543,7 +543,7 @@ void ofApp::update(){
 
             string portName = findArduinoPort();
             if (portName != "") {
-                serial.setup(portName, 250000);
+                serial.setup(portName, 115200);
                 if (serial.isInitialized()) {
                     ofLogNotice() << "Reconnected to Arduino on port: " << portName;
                     lastSerialReceiveTime = currentTime; // Reset receive timer

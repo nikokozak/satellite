@@ -1483,7 +1483,108 @@ obj/osx/Release/src/ofApp.o: \
   /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxDlib/libs/dlib/include/dlib/image_processing/../base64.h \
   /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxDlib/libs/dlib/include/dlib/image_processing/../base64/base64_kernel_1.h \
   /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxDlib/libs/dlib/include/dlib/image_processing/../base64/../algs.h \
-  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxDlib/libs/dlib/include/dlib/image_processing/../base64/base64_kernel_abstract.h
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxDlib/libs/dlib/include/dlib/image_processing/../base64/base64_kernel_abstract.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/src/ofxCv.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/opencv_modules.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cvdef.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/version.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/hal/interface.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cv_cpu_dispatch.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/base.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cvstd.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cvstd_wrapper.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/neon_utils.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/vsx_utils.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/check.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/traits.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/matx.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/saturate.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/fast_math.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/bufferpool.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.inl.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/persistence.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cvstd.inl.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/utility.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/optim.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/ovx.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/miniflann.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/config.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/affine.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/dnn.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/async.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/../dnn/version.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/dict.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/layer.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/dnn.inl.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/utils/inference_engine.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/utils/../dnn.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/matrix.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/params.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/any.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/saving.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/all_indices.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dynamic_bitset.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/heap.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/allocator.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_single_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/logger.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/composite_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/linear_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hierarchical_clustering_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_table.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/autotuned_index.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/ground_truth.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/sampling.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/./imgproc/segmentation.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/face.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/photo.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/background_segm.hpp \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc_c.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/types_c.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d/calib3d_c.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Wrappers.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/CLD/include/CLD/imatrix.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/CLD/include/CLD/ETF.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/CLD/include/CLD/fdog.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/CLD/include/CLD/myvec.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Helpers.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Distance.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Tracker.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/ContourFinder.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/RunningBackground.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/ObjectFinder.h \
+  /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Kalman.h
 /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/apps/myApps/plotter/src/ofApp.h:
 ../../../libs/openFrameworks/ofMain.h:
 ../../../libs/openFrameworks/utils/ofConstants.h:
@@ -2968,3 +3069,104 @@ obj/osx/Release/src/ofApp.o: \
 /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxDlib/libs/dlib/include/dlib/image_processing/../base64/base64_kernel_1.h:
 /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxDlib/libs/dlib/include/dlib/image_processing/../base64/../algs.h:
 /Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxDlib/libs/dlib/include/dlib/image_processing/../base64/base64_kernel_abstract.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/src/ofxCv.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/opencv_modules.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cvdef.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/version.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/hal/interface.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cv_cpu_dispatch.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/base.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cvstd.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cvstd_wrapper.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/neon_utils.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/vsx_utils.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/check.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/traits.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/matx.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/saturate.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/fast_math.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/bufferpool.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.inl.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/persistence.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/cvstd.inl.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/utility.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/optim.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/ovx.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/miniflann.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/config.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/affine.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/dnn.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/async.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/../dnn/version.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/dict.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/layer.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/dnn.inl.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/utils/inference_engine.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/dnn/utils/../dnn.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/matrix.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/params.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/any.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/saving.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/all_indices.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dynamic_bitset.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/heap.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/allocator.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_single_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/logger.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/composite_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/linear_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hierarchical_clustering_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_table.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/autotuned_index.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/ground_truth.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/sampling.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/./imgproc/segmentation.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/detection_based_tracker.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/face.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/photo.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/background_segm.hpp:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc_c.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/types_c.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d/calib3d_c.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Wrappers.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/CLD/include/CLD/imatrix.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/CLD/include/CLD/ETF.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/CLD/include/CLD/fdog.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/CLD/include/CLD/myvec.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Helpers.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Distance.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Tracker.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/ContourFinder.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/RunningBackground.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/ObjectFinder.h:
+/Users/niko/Documents/Projects/SCRATCH.nosync/of_v0.12.0_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Kalman.h:
